@@ -1,6 +1,6 @@
-package com.example.Alarming.service.port;
+package com.example.Alarming.product.service.port;
 
-import com.example.Alarming.domain.Product;
+import com.example.Alarming.product.domain.Product;
 
 import java.util.Optional;
 

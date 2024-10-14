@@ -1,4 +1,4 @@
-package com.example.Alarming.infrastructure;
+package com.example.Alarming.product.infrastructure;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

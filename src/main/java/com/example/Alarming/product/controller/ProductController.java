@@ -1,8 +1,8 @@
-package com.example.Alarming.controller;
+package com.example.Alarming.product.controller;
 
-import com.example.Alarming.domain.ProductRequest;
-import com.example.Alarming.service.port.ProductRestockService;
-import com.example.Alarming.service.port.ProductService;
+import com.example.Alarming.product.domain.ProductRequest;
+import com.example.Alarming.product.service.port.ProductRestockService;
+import com.example.Alarming.product.service.port.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

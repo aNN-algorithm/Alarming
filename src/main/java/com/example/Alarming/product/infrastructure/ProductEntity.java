@@ -1,6 +1,6 @@
-package com.example.Alarming.infrastructure;
+package com.example.Alarming.product.infrastructure;
 
-import com.example.Alarming.domain.Product;
+import com.example.Alarming.product.domain.Product;
 import jakarta.persistence.*;
 import lombok.Getter;
 

@@ -1,8 +1,8 @@
-package com.example.Alarming.infrastructure;
+package com.example.Alarming.product.infrastructure;
 
 import com.example.Alarming.common.exception.ResourceNotFoundException;
-import com.example.Alarming.domain.Product;
-import com.example.Alarming.service.port.ProductRepository;
+import com.example.Alarming.product.domain.Product;
+import com.example.Alarming.product.service.port.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 

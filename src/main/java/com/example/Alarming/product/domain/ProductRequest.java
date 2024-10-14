@@ -1,4 +1,4 @@
-package com.example.Alarming.domain;
+package com.example.Alarming.product.domain;
 
 import lombok.Getter;
 
