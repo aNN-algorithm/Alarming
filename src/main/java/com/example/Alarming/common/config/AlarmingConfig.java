@@ -9,14 +9,12 @@ import com.example.Alarming.notification.productNotification.service.ProductNoti
 import com.example.Alarming.notification.productUserNotification.domain.ProductUserNotification;
 import com.example.Alarming.notification.productUserNotification.repository.ProductUserNotificationRepository;
 import com.example.Alarming.notification.productUserNotification.service.ProductUserNotificationHistoryService;
-import com.example.Alarming.product.domain.Product;
 import io.github.bucket4j.Bandwidth;
 import io.github.bucket4j.Bucket;
 import io.github.bucket4j.Refill;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Lazy;
 
 import java.time.Duration;
 import java.util.concurrent.*;

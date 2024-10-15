@@ -1,4 +1,4 @@
-package com.example.Alarming.product.service.port;
+package com.example.Alarming.product.service;
 
 import com.example.Alarming.product.domain.Product;
 import com.example.Alarming.product.domain.ProductRequest;

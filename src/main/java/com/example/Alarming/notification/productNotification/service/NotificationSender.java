@@ -1,16 +1,12 @@
 package com.example.Alarming.notification.productNotification.service;
 
-import com.example.Alarming.notification.productNotification.domain.ProductNotificationHistory;
 import com.example.Alarming.notification.productNotification.domain.ProductNotificationStatus;
 import com.example.Alarming.notification.productUserNotification.domain.ProductUserNotification;
-import com.example.Alarming.notification.productUserNotification.domain.ProductUserNotificationHistory;
 import com.example.Alarming.notification.productUserNotification.service.ProductUserNotificationHistoryService;
-import com.example.Alarming.product.domain.Product;
 import io.github.bucket4j.Bucket;
 import lombok.RequiredArgsConstructor;
 
 import java.util.concurrent.BlockingDeque;
-import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
 
 @RequiredArgsConstructor

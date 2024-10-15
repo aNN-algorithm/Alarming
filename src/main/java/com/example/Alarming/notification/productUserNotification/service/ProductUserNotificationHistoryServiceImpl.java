@@ -3,8 +3,7 @@ package com.example.Alarming.notification.productUserNotification.service;
 import com.example.Alarming.notification.productUserNotification.domain.ProductUserNotificationHistory;
 import com.example.Alarming.notification.productUserNotification.repository.ProductUserNotificationHistoryRepository;
 import com.example.Alarming.product.domain.Product;
-import com.example.Alarming.product.service.port.ProductRepository;
-import lombok.Getter;
+import com.example.Alarming.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

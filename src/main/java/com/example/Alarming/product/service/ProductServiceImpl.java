@@ -2,8 +2,7 @@ package com.example.Alarming.product.service;
 
 import com.example.Alarming.product.domain.Product;
 import com.example.Alarming.product.domain.ProductRequest;
-import com.example.Alarming.product.service.port.ProductRepository;
-import com.example.Alarming.product.service.port.ProductService;
+import com.example.Alarming.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
