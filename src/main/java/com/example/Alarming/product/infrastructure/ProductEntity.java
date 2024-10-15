@@ -21,7 +21,7 @@ public class ProductEntity {
 
     public static ProductEntity from(Product product) {
         ProductEntity productEntity = new ProductEntity();
-        productEntity.id = product.getId();
+        productEntity.id = product.getProductId();
         productEntity.restockRound = product.getRestockRound();
         productEntity.stockQuantity = product.getStockQuantity();
         return productEntity;
@@ -29,7 +29,7 @@ public class ProductEntity {
 
     public Product toModel() {
         return Product.builder()
-                .id(id)
+                .productId(id)
                 .restockRound(restockRound)
                 .stockQuantity(stockQuantity)
                 .build();

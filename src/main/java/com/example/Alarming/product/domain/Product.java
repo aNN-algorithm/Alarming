@@ -6,20 +6,20 @@ import lombok.Getter;
 @Getter
 public class Product {
 
-    private final Long id;
+    private final Long productId;
     private final Integer restockRound;
     private final Integer stockQuantity;
 
     @Builder
-    public Product(Long id, Integer restockRound, Integer stockQuantity) {
-        this.id = id;
+    public Product(Long productId, Integer restockRound, Integer stockQuantity) {
+        this.productId = productId;
         this.restockRound = restockRound;
         this.stockQuantity = stockQuantity;
     }
 
     public Product update(ProductRequest request) {
         return Product.builder()
-                .id(id)
+                .productId(productId)
                 .restockRound(restockRound + 1)
                 .stockQuantity(stockQuantity + request.getStockQuantity())
                 .build();
